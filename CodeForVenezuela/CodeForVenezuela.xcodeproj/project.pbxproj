@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1686AC3A23F9F28400CA8743 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686AC3923F9F28400CA8743 /* AppDelegate.swift */; };
 		1686AC3C23F9F28400CA8743 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686AC3B23F9F28400CA8743 /* SceneDelegate.swift */; };
-		1686AC3E23F9F28400CA8743 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686AC3D23F9F28400CA8743 /* ContentView.swift */; };
+		1686AC3E23F9F28400CA8743 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686AC3D23F9F28400CA8743 /* SearchView.swift */; };
 		1686AC4023F9F28600CA8743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1686AC3F23F9F28600CA8743 /* Assets.xcassets */; };
 		1686AC4323F9F28600CA8743 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1686AC4223F9F28600CA8743 /* Preview Assets.xcassets */; };
 		1686AC4623F9F28600CA8743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1686AC4423F9F28600CA8743 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		1686AC3623F9F28400CA8743 /* CodeForVenezuela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeForVenezuela.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1686AC3923F9F28400CA8743 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1686AC3B23F9F28400CA8743 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1686AC3D23F9F28400CA8743 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1686AC3D23F9F28400CA8743 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		1686AC3F23F9F28600CA8743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1686AC4223F9F28600CA8743 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1686AC4523F9F28600CA8743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			children = (
 				1686AC3923F9F28400CA8743 /* AppDelegate.swift */,
 				1686AC3B23F9F28400CA8743 /* SceneDelegate.swift */,
-				1686AC3D23F9F28400CA8743 /* ContentView.swift */,
+				1686AC3D23F9F28400CA8743 /* SearchView.swift */,
 				1686AC3F23F9F28600CA8743 /* Assets.xcassets */,
 				1686AC4423F9F28600CA8743 /* LaunchScreen.storyboard */,
 				1686AC4723F9F28600CA8743 /* Info.plist */,
@@ -148,7 +148,7 @@
 			files = (
 				1686AC3A23F9F28400CA8743 /* AppDelegate.swift in Sources */,
 				1686AC3C23F9F28400CA8743 /* SceneDelegate.swift in Sources */,
-				1686AC3E23F9F28400CA8743 /* ContentView.swift in Sources */,
+				1686AC3E23F9F28400CA8743 /* SearchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
