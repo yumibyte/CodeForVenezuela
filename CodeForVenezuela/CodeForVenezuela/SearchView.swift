@@ -11,7 +11,23 @@ import SwiftUI
 struct SearchView: View {
     var body: some View {
         
-        Text("Hello World!")
+        TabView {
+             Text("content of 1st view")
+                .tabItem {
+                    Image("Basket")
+            }
+            Text("content of 2nd view")
+                .tabItem {
+                    Image("Explore")
+            }
+            Text("content of 3nd view")
+                .tabItem {
+                    Image("Notification")
+            }
+            
+                
+            
+        }
     }
 }
 
